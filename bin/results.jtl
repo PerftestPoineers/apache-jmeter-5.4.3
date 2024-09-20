@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="2209" it="237" lt="0" ct="1522" ts="1726814693483" s="true" lb="S01---Opcenter_Launch" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="1373" sby="1469" ng="1" na="1">
+  <httpSample t="1870" it="0" lt="1868" ct="1522" ts="1726814693717" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/default.htm-2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1038" sby="724" ng="1" na="1">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/default.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="339" it="0" lt="339" ct="0" ts="1726814695590" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-49" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="335" sby="745" ng="1" na="1">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1713" it="3" lt="0" ct="1027" ts="1726814696473" s="true" lb="S01---Opcenter_Launch" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="1373" sby="1469" ng="2" na="2">
+  <httpSample t="1365" it="0" lt="1365" ct="1027" ts="1726814696475" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/default.htm-2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1038" sby="724" ng="2" na="2">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/default.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="348" it="0" lt="348" ct="0" ts="1726814697841" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-49" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="335" sby="745" ng="2" na="2">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1123" it="2" lt="0" ct="673" ts="1726814705483" s="true" lb="S01---Opcenter_Launch" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-5" dt="" by="1373" sby="1469" ng="5" na="5">
+  <httpSample t="897" it="0" lt="897" ct="673" ts="1726814705484" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/default.htm-2" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1038" sby="724" ng="5" na="5">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/default.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="226" it="0" lt="226" ct="0" ts="1726814706382" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-49" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="335" sby="745" ng="5" na="5">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="14793" it="3" lt="0" ct="14111" ts="1726814702469" s="true" lb="S01---Opcenter_Launch" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="Thread Group 1-4" dt="" by="1373" sby="1469" ng="5" na="5">
+  <httpSample t="14457" it="0" lt="14457" ct="14111" ts="1726814702470" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/default.htm-2" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1038" sby="724" ng="5" na="5">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/default.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1726814716929" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-49" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="335" sby="745" ng="5" na="5">
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="11680" it="43" lt="0" ct="0" ts="1726814706609" s="true" lb="S02---Opcenter_Login" rc="200" rm="Number of samples in transaction : 15, number of failing samples : 0" tn="Thread Group 1-5" dt="" by="551791" sby="18274" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="340" it="0" lt="340" ct="0" ts="1726814706609" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon-75" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="967" sby="892" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon</java.net.URL>
+  </httpSample>
+  <httpSample t="227" it="0" lt="227" ct="0" ts="1726814706951" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings-76" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="524" sby="1072" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings</java.net.URL>
+  </httpSample>
+  <httpSample t="730" it="0" lt="536" ct="0" ts="1726814707179" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems-77" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="38557" sby="1067" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems</java.net.URL>
+  </httpSample>
+  <httpSample t="228" it="0" lt="228" ct="0" ts="1726814707910" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels-78" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1609" sby="2323" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels</java.net.URL>
+  </httpSample>
+  <httpSample t="224" it="0" lt="224" ct="0" ts="1726814708140" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html-125" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="309" sby="981" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html</java.net.URL>
+  </httpSample>
+  <httpSample t="1142" it="0" lt="341" ct="0" ts="1726814708366" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="7328" sby="2213" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="341" it="0" lt="341" ct="0" ts="1726814708366" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-0" rc="302" rm="Found" tn="Thread Group 1-5" dt="text" by="403" sby="1122" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Default.aspx?apolloLink=true&amp;mode=apollo</java.net.URL>
+    </httpSample>
+    <httpSample t="799" it="0" lt="799" ct="0" ts="1726814708709" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-1" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="6925" sby="1091" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="767" it="0" lt="767" ct="0" ts="1726814709511" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Main.aspx-138" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="6925" sby="1091" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="854" it="0" lt="425" ct="0" ts="1726814710286" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar-208" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="59103" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar?v=mem5t2gst7xG2ZmfqeSIbmTpQmXsAsBJoi5LCYgA8Ig1</java.net.URL>
+  </httpSample>
+  <httpSample t="2327" it="0" lt="661" ct="0" ts="1726814711151" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery-207" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="138747" sby="978" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery?v=3AThorVDt0S_-s8cC0NdTCfDtSxErNzmG6z2RnX-gII1</java.net.URL>
+  </httpSample>
+  <httpSample t="989" it="0" lt="429" ct="0" ts="1726814713481" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols-209" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="40516" sby="983" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols?v=rdKMbsV7nlMfFtZbWSLaPGcdlQFftj_haMOgdrY_KhE1</java.net.URL>
+  </httpSample>
+  <httpSample t="227" it="0" lt="227" ct="0" ts="1726814714471" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/session-212" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="3220" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/session?v=kOtqX_7SQPjxDXA5Xp5rX3j8mBJAnS_xKdps9aWWyVs1</java.net.URL>
+  </httpSample>
+  <httpSample t="226" it="0" lt="226" ct="0" ts="1726814714703" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride-213" rc="200" rm="OK" tn="Thread Group 1-5" dt="" by="284" sby="945" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride?v=</java.net.URL>
+  </httpSample>
+  <httpSample t="2937" it="0" lt="422" ct="0" ts="1726814714932" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts-210" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="252058" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts?v=Vo5BzM2nXYzQLTNVGeddatdYzEmpW89t_lylCCeInsQ1</java.net.URL>
+  </httpSample>
+  <httpSample t="227" it="0" lt="226" ct="0" ts="1726814717870" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-227" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="673" sby="1311" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="235" it="0" lt="234" ct="0" ts="1726814718097" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-228" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="971" sby="1481" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="8097" it="26" lt="0" ct="0" ts="1726814717265" s="true" lb="S02---Opcenter_Login" rc="200" rm="Number of samples in transaction : 15, number of failing samples : 0" tn="Thread Group 1-4" dt="" by="551809" sby="18274" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="457" it="0" lt="457" ct="0" ts="1726814717266" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon-75" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="967" sby="892" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon</java.net.URL>
+  </httpSample>
+  <httpSample t="344" it="0" lt="344" ct="0" ts="1726814717727" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings-76" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="524" sby="1072" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings</java.net.URL>
+  </httpSample>
+  <httpSample t="1058" it="0" lt="822" ct="0" ts="1726814718072" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems-77" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="38557" sby="1067" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems</java.net.URL>
+  </httpSample>
+  <httpSample t="442" it="0" lt="442" ct="0" ts="1726814719132" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels-78" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1609" sby="2323" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels</java.net.URL>
+  </httpSample>
+  <httpSample t="332" it="0" lt="332" ct="0" ts="1726814719576" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html-125" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="309" sby="981" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html</java.net.URL>
+  </httpSample>
+  <httpSample t="1342" it="0" lt="441" ct="0" ts="1726814719909" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="7338" sby="2213" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="441" it="0" lt="441" ct="0" ts="1726814719909" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-0" rc="302" rm="Found" tn="Thread Group 1-4" dt="text" by="403" sby="1122" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Default.aspx?apolloLink=true&amp;mode=apollo</java.net.URL>
+    </httpSample>
+    <httpSample t="901" it="0" lt="901" ct="0" ts="1726814720350" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-1" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="6935" sby="1091" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="916" it="0" lt="916" ct="0" ts="1726814721253" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Main.aspx-138" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="6933" sby="1091" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="369" it="0" lt="354" ct="0" ts="1726814722170" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar-208" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="59103" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar?v=mem5t2gst7xG2ZmfqeSIbmTpQmXsAsBJoi5LCYgA8Ig1</java.net.URL>
+  </httpSample>
+  <httpSample t="660" it="0" lt="343" ct="0" ts="1726814722541" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery-207" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="138747" sby="978" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery?v=3AThorVDt0S_-s8cC0NdTCfDtSxErNzmG6z2RnX-gII1</java.net.URL>
+  </httpSample>
+  <httpSample t="354" it="0" lt="340" ct="0" ts="1726814723202" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols-209" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="40516" sby="983" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols?v=rdKMbsV7nlMfFtZbWSLaPGcdlQFftj_haMOgdrY_KhE1</java.net.URL>
+  </httpSample>
+  <httpSample t="341" it="0" lt="341" ct="0" ts="1726814723557" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/session-212" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="3220" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/session?v=kOtqX_7SQPjxDXA5Xp5rX3j8mBJAnS_xKdps9aWWyVs1</java.net.URL>
+  </httpSample>
+  <httpSample t="345" it="0" lt="345" ct="0" ts="1726814723901" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride-213" rc="200" rm="OK" tn="Thread Group 1-4" dt="" by="284" sby="945" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride?v=</java.net.URL>
+  </httpSample>
+  <httpSample t="449" it="0" lt="351" ct="0" ts="1726814724249" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts-210" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="252058" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts?v=Vo5BzM2nXYzQLTNVGeddatdYzEmpW89t_lylCCeInsQ1</java.net.URL>
+  </httpSample>
+  <httpSample t="349" it="0" lt="349" ct="0" ts="1726814724699" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-227" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="673" sby="1311" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="339" it="0" lt="339" ct="0" ts="1726814725049" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-228" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="971" sby="1481" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="8620" it="8" lt="0" ct="2058" ts="1726814718354" s="true" lb="S03---Opcenter_Opcenter_LogOut" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="Thread Group 1-5" dt="" by="60907" sby="8152" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="224" it="0" lt="224" ct="0" ts="1726814718355" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-1,337" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="720" sby="1337" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="221" it="0" lt="221" ct="0" ts="1726814718579" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,342" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="506" sby="1000" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?kill=%2Fcamstarportal%2FMain.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="222" it="0" lt="222" ct="0" ts="1726814718801" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,343" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="433" sby="963" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?release=%2Fcamstarportal%2Fdefault.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="7112" it="0" lt="2836" ct="2058" ts="1726814719027" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="18362" sby="2795" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="2836" it="0" lt="2836" ct="2058" ts="1726814719027" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-0" rc="302" rm="Found" tn="Thread Group 1-5" dt="" by="2800" sby="224" ng="5" na="5">
+      <java.net.URL>https://tops.kbxl.com/secur/default/index/</java.net.URL>
+    </httpSample>
+    <httpSample t="2963" it="0" lt="2963" ct="2183" ts="1726814721866" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-1" rc="302" rm="Found" tn="Thread Group 1-5" dt="" by="1935" sby="882" ng="5" na="5">
+      <java.net.URL>https://identity.kbxl.com/connect/authorize?response_mode=form_post&amp;response_type=code+id_token&amp;scope=offline_access+roles+api1+email+profile+openid+visibilityApi+financialApi+phApi+fetApi&amp;state=OpenIdConnect.AuthenticationProperties%3d5P_nmSC18BIjmo0P3qY8JV5ztfglv5651zNbZ36jhRd8CX1Xd9JRC6v7aG1it86rYYHeaKkiFSo9c-6zH2H0YNFxgpD6sj5M-IYGRmwOXRuKlbmQaPpYRQNIhX8dJdm7127C8g&amp;nonce=638624115215256897.YTk2ZjQzNjUtN2M2OS00NzIxLWJjYTMtZjUyYWI3ZTMzYjI1MzdhMDNhNjgtZTI4Zi00OTFjLWI3NGMtNjZhNTFlZTJjNTc5&amp;redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fsignin-oidc%2f&amp;client_id=tops&amp;post_logout_redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fdefault%2findex&amp;x-client-SKU=ID_NET&amp;x-client-ver=1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <httpSample t="1309" it="0" lt="1077" ct="0" ts="1726814724831" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-2" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="13627" sby="1689" ng="5" na="5">
+      <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253D5P_nmSC18BIjmo0P3qY8JV5ztfglv5651zNbZ36jhRd8CX1Xd9JRC6v7aG1it86rYYHeaKkiFSo9c-6zH2H0YNFxgpD6sj5M-IYGRmwOXRuKlbmQaPpYRQNIhX8dJdm7127C8g%26nonce%3D638624115215256897.YTk2ZjQzNjUtN2M2OS00NzIxLWJjYTMtZjUyYWI3ZTMzYjI1MzdhMDNhNjgtZTI4Zi00OTFjLWI3NGMtNjZhNTFlZTJjNTc5%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253D5P_nmSC18BIjmo0P3qY8JV5ztfglv5651zNbZ36jhRd8CX1Xd9JRC6v7aG1it86rYYHeaKkiFSo9c-6zH2H0YNFxgpD6sj5M-IYGRmwOXRuKlbmQaPpYRQNIhX8dJdm7127C8g%26nonce%3D638624115215256897.YTk2ZjQzNjUtN2M2OS00NzIxLWJjYTMtZjUyYWI3ZTMzYjI1MzdhMDNhNjgtZTI4Zi00OTFjLWI3NGMtNjZhNTFlZTJjNTc5%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+  </httpSample>
+  <httpSample t="232" it="0" lt="232" ct="0" ts="1726814726141" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-1,376" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="335" sby="1030" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+  <httpSample t="609" it="0" lt="420" ct="0" ts="1726814726373" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings-1,386" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="40551" sby="1027" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="35352" it="28" lt="0" ct="0" ts="1726814695934" s="true" lb="S02---Opcenter_Login" rc="200" rm="Number of samples in transaction : 15, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="551797" sby="18274" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="467" it="0" lt="467" ct="0" ts="1726814695935" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon-75" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="967" sby="892" ng="1" na="1">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon</java.net.URL>
+  </httpSample>
+  <httpSample t="339" it="0" lt="339" ct="0" ts="1726814696410" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings-76" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="524" sby="1072" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings</java.net.URL>
+  </httpSample>
+  <httpSample t="1083" it="0" lt="1066" ct="0" ts="1726814696750" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems-77" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="38557" sby="1067" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems</java.net.URL>
+  </httpSample>
+  <httpSample t="443" it="0" lt="443" ct="0" ts="1726814697834" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels-78" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1609" sby="2323" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels</java.net.URL>
+  </httpSample>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1726814698278" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html-125" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="309" sby="981" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html</java.net.URL>
+  </httpSample>
+  <httpSample t="21827" it="0" lt="456" ct="0" ts="1726814698615" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7331" sby="2213" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="456" it="0" lt="456" ct="0" ts="1726814698615" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="403" sby="1122" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Default.aspx?apolloLink=true&amp;mode=apollo</java.net.URL>
+    </httpSample>
+    <httpSample t="21369" it="0" lt="21369" ct="0" ts="1726814699073" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6928" sby="1091" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="1177" it="0" lt="1176" ct="0" ts="1726814720445" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Main.aspx-138" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="6928" sby="1091" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="2144" it="0" lt="935" ct="0" ts="1726814721625" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar-208" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="59103" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar?v=mem5t2gst7xG2ZmfqeSIbmTpQmXsAsBJoi5LCYgA8Ig1</java.net.URL>
+  </httpSample>
+  <httpSample t="2758" it="0" lt="655" ct="0" ts="1726814723772" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery-207" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="138747" sby="978" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery?v=3AThorVDt0S_-s8cC0NdTCfDtSxErNzmG6z2RnX-gII1</java.net.URL>
+  </httpSample>
+  <httpSample t="648" it="0" lt="645" ct="0" ts="1726814726532" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols-209" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="40516" sby="983" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols?v=rdKMbsV7nlMfFtZbWSLaPGcdlQFftj_haMOgdrY_KhE1</java.net.URL>
+  </httpSample>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1726814727181" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/session-212" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3220" sby="979" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/session?v=kOtqX_7SQPjxDXA5Xp5rX3j8mBJAnS_xKdps9aWWyVs1</java.net.URL>
+  </httpSample>
+  <httpSample t="342" it="0" lt="342" ct="0" ts="1726814727518" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride-213" rc="200" rm="OK" tn="Thread Group 1-1" dt="" by="284" sby="945" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride?v=</java.net.URL>
+  </httpSample>
+  <httpSample t="2781" it="0" lt="347" ct="0" ts="1726814727861" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts-210" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="252058" sby="979" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts?v=Vo5BzM2nXYzQLTNVGeddatdYzEmpW89t_lylCCeInsQ1</java.net.URL>
+  </httpSample>
+  <httpSample t="335" it="0" lt="335" ct="0" ts="1726814730643" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-227" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="673" sby="1311" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="336" it="0" lt="335" ct="0" ts="1726814730978" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-228" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="971" sby="1481" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="34942" it="17" lt="0" ct="0" ts="1726814698190" s="true" lb="S02---Opcenter_Login" rc="200" rm="Number of samples in transaction : 15, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="551803" sby="18274" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="404" it="0" lt="404" ct="0" ts="1726814698190" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon-75" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="967" sby="892" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/Logon</java.net.URL>
+  </httpSample>
+  <httpSample t="334" it="0" lt="334" ct="0" ts="1726814698597" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings-76" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="524" sby="1072" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloSettings</java.net.URL>
+  </httpSample>
+  <httpSample t="21521" it="0" lt="20900" ct="0" ts="1726814698932" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems-77" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="38557" sby="1067" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetMenuItems</java.net.URL>
+  </httpSample>
+  <httpSample t="442" it="0" lt="442" ct="0" ts="1726814720453" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels-78" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1609" sby="2323" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetApolloNavigationLabels</java.net.URL>
+  </httpSample>
+  <httpSample t="353" it="0" lt="353" ct="0" ts="1726814720896" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html-125" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="309" sby="981" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/assets/html/momBlankAppLogoView.html</java.net.URL>
+  </httpSample>
+  <httpSample t="1629" it="0" lt="446" ct="0" ts="1726814721250" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="7336" sby="2213" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="446" it="0" lt="446" ct="0" ts="1726814721250" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-0" rc="302" rm="Found" tn="Thread Group 1-2" dt="text" by="403" sby="1122" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Default.aspx?apolloLink=true&amp;mode=apollo</java.net.URL>
+    </httpSample>
+    <httpSample t="1181" it="0" lt="1180" ct="0" ts="1726814721698" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Default.aspx-134-1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="6933" sby="1091" ng="5" na="5">
+      <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="1170" it="0" lt="1169" ct="0" ts="1726814722881" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/Main.aspx-138" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="6929" sby="1091" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/Main.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="1858" it="0" lt="1248" ct="0" ts="1726814724053" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar-208" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="59103" sby="979" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/camstar?v=mem5t2gst7xG2ZmfqeSIbmTpQmXsAsBJoi5LCYgA8Ig1</java.net.URL>
+  </httpSample>
+  <httpSample t="2437" it="0" lt="954" ct="0" ts="1726814725913" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery-207" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="138747" sby="978" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/jquery?v=3AThorVDt0S_-s8cC0NdTCfDtSxErNzmG6z2RnX-gII1</java.net.URL>
+  </httpSample>
+  <httpSample t="667" it="0" lt="665" ct="0" ts="1726814728351" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols-209" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="40516" sby="983" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/webcontrols?v=rdKMbsV7nlMfFtZbWSLaPGcdlQFftj_haMOgdrY_KhE1</java.net.URL>
+  </httpSample>
+  <httpSample t="347" it="0" lt="346" ct="0" ts="1726814729019" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/session-212" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="3220" sby="979" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/session?v=kOtqX_7SQPjxDXA5Xp5rX3j8mBJAnS_xKdps9aWWyVs1</java.net.URL>
+  </httpSample>
+  <httpSample t="342" it="0" lt="342" ct="0" ts="1726814729367" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride-213" rc="200" rm="OK" tn="Thread Group 1-2" dt="" by="284" sby="945" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/workspaceoverride?v=</java.net.URL>
+  </httpSample>
+  <httpSample t="2748" it="0" lt="357" ct="0" ts="1726814729710" s="true" lb="pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts-210" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="252058" sby="979" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/CamstarPortal/bundles/scripts?v=Vo5BzM2nXYzQLTNVGeddatdYzEmpW89t_lylCCeInsQ1</java.net.URL>
+  </httpSample>
+  <httpSample t="354" it="0" lt="354" ct="0" ts="1726814732459" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-227" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="673" sby="1311" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1726814732813" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-228" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="971" sby="1481" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="9166" it="8" lt="0" ct="2363" ts="1726814725392" s="true" lb="S03---Opcenter_Opcenter_LogOut" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="Thread Group 1-4" dt="" by="60814" sby="8152" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="343" it="0" lt="343" ct="0" ts="1726814725392" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-1,337" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="720" sby="1337" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="332" it="0" lt="332" ct="0" ts="1726814725736" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,342" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="506" sby="1000" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?kill=%2Fcamstarportal%2FMain.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="337" it="0" lt="336" ct="0" ts="1726814726069" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,343" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="433" sby="963" ng="5" na="5">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?release=%2Fcamstarportal%2Fdefault.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="7431" it="0" lt="3121" ct="2363" ts="1726814726407" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="18269" sby="2795" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="3121" it="0" lt="3121" ct="2363" ts="1726814726407" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-0" rc="302" rm="Found" tn="Thread Group 1-4" dt="" by="2788" sby="224" ng="4" na="4">
+      <java.net.URL>https://tops.kbxl.com/secur/default/index/</java.net.URL>
+    </httpSample>
+    <httpSample t="3022" it="0" lt="3022" ct="2250" ts="1726814729531" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-1" rc="302" rm="Found" tn="Thread Group 1-4" dt="" by="1935" sby="882" ng="4" na="4">
+      <java.net.URL>https://identity.kbxl.com/connect/authorize?response_mode=form_post&amp;response_type=code+id_token&amp;scope=offline_access+roles+api1+email+profile+openid+visibilityApi+financialApi+phApi+fetApi&amp;state=OpenIdConnect.AuthenticationProperties%3d5BGg5_hW5E5RGVXH8ZY_i6LWDTOKahkTHQVdWSok1GtEGQiTXgnjLUpORiKRtwslzwL2yokllEyODs19VmTw33YR68IKIvz-lzRPuySvJd8BTtBNFGU-mYijLwd_SVCV2K--Yg&amp;nonce=638624115292117005.MDFmMTYwMDAtYTUxMy00MTQ1LWJkOGEtNjhmMDRlMjBiODdkZGE3YWY1OTItYjNmOC00MDI3LWE0MTgtYjAzYzljYTkxYzA1&amp;redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fsignin-oidc%2f&amp;client_id=tops&amp;post_logout_redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fdefault%2findex&amp;x-client-SKU=ID_NET&amp;x-client-ver=1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <httpSample t="1284" it="0" lt="1284" ct="0" ts="1726814732554" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-2" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="13546" sby="1689" ng="4" na="4">
+      <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253D5BGg5_hW5E5RGVXH8ZY_i6LWDTOKahkTHQVdWSok1GtEGQiTXgnjLUpORiKRtwslzwL2yokllEyODs19VmTw33YR68IKIvz-lzRPuySvJd8BTtBNFGU-mYijLwd_SVCV2K--Yg%26nonce%3D638624115292117005.MDFmMTYwMDAtYTUxMy00MTQ1LWJkOGEtNjhmMDRlMjBiODdkZGE3YWY1OTItYjNmOC00MDI3LWE0MTgtYjAzYzljYTkxYzA1%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253D5BGg5_hW5E5RGVXH8ZY_i6LWDTOKahkTHQVdWSok1GtEGQiTXgnjLUpORiKRtwslzwL2yokllEyODs19VmTw33YR68IKIvz-lzRPuySvJd8BTtBNFGU-mYijLwd_SVCV2K--Yg%26nonce%3D638624115292117005.MDFmMTYwMDAtYTUxMy00MTQ1LWJkOGEtNjhmMDRlMjBiODdkZGE3YWY1OTItYjNmOC00MDI3LWE0MTgtYjAzYzljYTkxYzA1%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+  </httpSample>
+  <httpSample t="348" it="0" lt="348" ct="0" ts="1726814733840" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-1,376" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="335" sby="1030" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+  <httpSample t="375" it="0" lt="360" ct="0" ts="1726814734190" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings-1,386" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="40551" sby="1027" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="9430" it="8" lt="0" ct="2304" ts="1726814731316" s="true" lb="S03---Opcenter_Opcenter_LogOut" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="60867" sby="8152" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="334" it="0" lt="334" ct="0" ts="1726814731316" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-1,337" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="720" sby="1337" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="335" it="0" lt="335" ct="0" ts="1726814731651" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,342" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="506" sby="1000" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?kill=%2Fcamstarportal%2FMain.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="334" it="0" lt="333" ct="0" ts="1726814731988" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,343" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="433" sby="963" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?release=%2Fcamstarportal%2Fdefault.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="7423" it="0" lt="3071" ct="2304" ts="1726814732324" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="18322" sby="2795" ng="3" na="3">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="3071" it="0" lt="3071" ct="2304" ts="1726814732324" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="" by="2800" sby="224" ng="3" na="3">
+      <java.net.URL>https://tops.kbxl.com/secur/default/index/</java.net.URL>
+    </httpSample>
+    <httpSample t="3064" it="0" lt="3064" ct="2254" ts="1726814735396" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-1" rc="302" rm="Found" tn="Thread Group 1-1" dt="" by="1935" sby="882" ng="3" na="3">
+      <java.net.URL>https://identity.kbxl.com/connect/authorize?response_mode=form_post&amp;response_type=code+id_token&amp;scope=offline_access+roles+api1+email+profile+openid+visibilityApi+financialApi+phApi+fetApi&amp;state=OpenIdConnect.AuthenticationProperties%3dwlzyzU_lwRTzza6CBGZuV0ox5QGG85mMVd5k50aU2bpSAi41OXoguZ5GE90mfWyQ7-5RgY57tDY6xZHXXub4JL9HAFW2pfk1CRrn-XfDV6Rjk4_GpaXxmSNSR7sOQINCEGi13A&amp;nonce=638624115350677121.ODgzYzJjYjEtNWEyOS00NTE3LWEzNGYtNGNiNjU5ODhjNzkzM2I4ZmE2NWMtY2JlMC00NTVhLWIyOWItZjljNmE1ZDI2NDFh&amp;redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fsignin-oidc%2f&amp;client_id=tops&amp;post_logout_redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fdefault%2findex&amp;x-client-SKU=ID_NET&amp;x-client-ver=1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <httpSample t="1285" it="0" lt="782" ct="0" ts="1726814738462" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13587" sby="1689" ng="3" na="3">
+      <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253DwlzyzU_lwRTzza6CBGZuV0ox5QGG85mMVd5k50aU2bpSAi41OXoguZ5GE90mfWyQ7-5RgY57tDY6xZHXXub4JL9HAFW2pfk1CRrn-XfDV6Rjk4_GpaXxmSNSR7sOQINCEGi13A%26nonce%3D638624115350677121.ODgzYzJjYjEtNWEyOS00NTE3LWEzNGYtNGNiNjU5ODhjNzkzM2I4ZmE2NWMtY2JlMC00NTVhLWIyOWItZjljNmE1ZDI2NDFh%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253DwlzyzU_lwRTzza6CBGZuV0ox5QGG85mMVd5k50aU2bpSAi41OXoguZ5GE90mfWyQ7-5RgY57tDY6xZHXXub4JL9HAFW2pfk1CRrn-XfDV6Rjk4_GpaXxmSNSR7sOQINCEGi13A%26nonce%3D638624115350677121.ODgzYzJjYjEtNWEyOS00NTE3LWEzNGYtNGNiNjU5ODhjNzkzM2I4ZmE2NWMtY2JlMC00NTVhLWIyOWItZjljNmE1ZDI2NDFh%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+  </httpSample>
+  <httpSample t="356" it="0" lt="356" ct="0" ts="1726814739749" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-1,376" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="335" sby="1030" ng="3" na="3">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+  <httpSample t="648" it="0" lt="359" ct="0" ts="1726814740106" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings-1,386" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="40551" sby="1027" ng="3" na="3">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="9720" it="9" lt="0" ct="2359" ts="1726814733154" s="true" lb="S03---Opcenter_Opcenter_LogOut" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="60885" sby="8152" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="350" it="0" lt="350" ct="0" ts="1726814733154" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd-1,337" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="720" sby="1337" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/AjaxEntry.axd</java.net.URL>
+  </httpSample>
+  <httpSample t="361" it="0" lt="360" ct="0" ts="1726814733505" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,342" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="506" sby="1000" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?kill=%2Fcamstarportal%2FMain.aspx</java.net.URL>
+  </httpSample>
+  <httpSample t="346" it="0" lt="345" ct="0" ts="1726814733868" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx-1,343" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="433" sby="963" ng="4" na="4">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/SessionHandler.ashx?release=%2Fcamstarportal%2Fdefault.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="7649" it="0" lt="3122" ct="2359" ts="1726814734216" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="18340" sby="2795" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <httpSample t="3122" it="0" lt="3122" ct="2359" ts="1726814734216" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-0" rc="302" rm="Found" tn="Thread Group 1-2" dt="" by="2792" sby="224" ng="2" na="2">
+      <java.net.URL>https://tops.kbxl.com/secur/default/index/</java.net.URL>
+    </httpSample>
+    <httpSample t="3210" it="0" lt="3210" ct="2408" ts="1726814737339" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-1" rc="302" rm="Found" tn="Thread Group 1-2" dt="" by="1935" sby="882" ng="2" na="2">
+      <java.net.URL>https://identity.kbxl.com/connect/authorize?response_mode=form_post&amp;response_type=code+id_token&amp;scope=offline_access+roles+api1+email+profile+openid+visibilityApi+financialApi+phApi+fetApi&amp;state=OpenIdConnect.AuthenticationProperties%3dYGYjZ_tPz680wZtSX2KdFMVYVm0-g9qvjmttLeLKYSinUXxfKsg7LSn_EpE6dJYkNzr-t1BSxQey93huwrkG2wGbcNn3KWaT5vGbxz2cr9I77TndwvPs_IxlPKoTXz46HBezmg&amp;nonce=638624115370177134.NTZlZjBmNTgtZDQzYS00Nzc4LWIyMDAtY2Q4ZDJlNTUxYWEyMjhiZDY4MjUtMmUwMy00ZGIxLTkwMWUtODA5OGNiYTQzNTY5&amp;redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fsignin-oidc%2f&amp;client_id=tops&amp;post_logout_redirect_uri=https%3a%2f%2ftops.kbxl.com%2fsecur%2fdefault%2findex&amp;x-client-SKU=ID_NET&amp;x-client-ver=1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <httpSample t="1316" it="0" lt="799" ct="0" ts="1726814740549" s="true" lb="pof1portal.opcenter.molex.com/secur/default/index/-1,354-2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="13613" sby="1689" ng="2" na="2">
+      <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253DYGYjZ_tPz680wZtSX2KdFMVYVm0-g9qvjmttLeLKYSinUXxfKsg7LSn_EpE6dJYkNzr-t1BSxQey93huwrkG2wGbcNn3KWaT5vGbxz2cr9I77TndwvPs_IxlPKoTXz46HBezmg%26nonce%3D638624115370177134.NTZlZjBmNTgtZDQzYS00Nzc4LWIyMDAtY2Q4ZDJlNTUxYWEyMjhiZDY4MjUtMmUwMy00ZGIxLTkwMWUtODA5OGNiYTQzNTY5%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://identity.kbxl.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fresponse_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Doffline_access%2520roles%2520api1%2520email%2520profile%2520openid%2520visibilityApi%2520financialApi%2520phApi%2520fetApi%26state%3DOpenIdConnect.AuthenticationProperties%253DYGYjZ_tPz680wZtSX2KdFMVYVm0-g9qvjmttLeLKYSinUXxfKsg7LSn_EpE6dJYkNzr-t1BSxQey93huwrkG2wGbcNn3KWaT5vGbxz2cr9I77TndwvPs_IxlPKoTXz46HBezmg%26nonce%3D638624115370177134.NTZlZjBmNTgtZDQzYS00Nzc4LWIyMDAtY2Q4ZDJlNTUxYWEyMjhiZDY4MjUtMmUwMy00ZGIxLTkwMWUtODA5OGNiYTQzNTY5%26redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fsignin-oidc%252F%26client_id%3Dtops%26post_logout_redirect_uri%3Dhttps%253A%252F%252Ftops.kbxl.com%252Fsecur%252Fdefault%252Findex%26x-client-SKU%3DID_NET%26x-client-ver%3D1.0.40306.1554</java.net.URL>
+  </httpSample>
+  <httpSample t="343" it="0" lt="343" ct="0" ts="1726814741867" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon-1,376" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="335" sby="1030" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/VerifyLogon</java.net.URL>
+  </httpSample>
+  <httpSample t="671" it="0" lt="366" ct="0" ts="1726814742211" s="true" lb="pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings-1,386" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="40551" sby="1027" ng="2" na="2">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>https://pof1portal.opcenter.molex.com/camstarportal/ApolloPortalService.svc/web/GetLoginSettings</java.net.URL>
+  </httpSample>
+</sample>
