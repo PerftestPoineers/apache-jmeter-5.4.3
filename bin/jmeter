@@ -197,3 +197,4 @@ else
 fi
 
 "$JAVA_HOME/bin/java" $ARGS $JVM_ARGS $JMETER_OPTS -jar "$PRGDIR/ApacheJMeter.jar" "$@"
+jmeter.save.saveservice.output_format=csv
