@@ -262,8 +262,7 @@ Java Cryptography Extension (JCE) API to provide
 - NTLM authentication
 
 Apache JMeter does not include any implementation of JSSE or JCE.
-
-Happy Testing
+Auto Build
 
 ## Thanks
 #Test
