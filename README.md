@@ -264,6 +264,5 @@ Java Cryptography Extension (JCE) API to provide
 Apache JMeter does not include any implementation of JSSE or JCE.
 Auto Build
 
-## Thanks
-#Test
+Thank you !
 **Thank you for using Apache JMeter.**
